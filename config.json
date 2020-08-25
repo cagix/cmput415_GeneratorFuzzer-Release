@@ -1,0 +1,27 @@
+{
+    "generation-options": {
+        "max-expression-recursion-depth": 10,
+        "add-random-whitespace": false,
+        "random-whitespace-density": 3
+    },
+    "properties": {
+        "max-range-length": 256,
+        "id-length": {
+            "min": 1,
+            "max": 20
+        }
+    },
+    "expression-weights": {
+        "+": 30,
+        "-": 30,
+        "*": 30,
+        "/": 30,
+        "%": 30,
+        "^": 30,
+        "()": 30,
+        "id": 100,
+        "int": 100,
+        "max-int": 10,
+        "min-int": 10
+    }
+}
