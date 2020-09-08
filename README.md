@@ -4,7 +4,7 @@ This Python script will automatically generate a test case for the Generator ass
 
 ## Requirements
 
-- Python 3
+- Python 3.7.2
 - NumPy
 
 ## Usage
